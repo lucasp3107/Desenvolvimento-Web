@@ -1,0 +1,69 @@
+/* 1. Reset do Box-Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Estilo do Corpo (Background suave e centralização) */
+body {
+    background-color: #f0f2f5; /* Cinza azulado muito suave */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* 3. Menu de Navegação */
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #555;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+/* Feedback de interatividade (Hover) */
+nav a:hover {
+    color: #007bff; /* Muda para azul ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* 4. Estilização do Artigo (O Card) */
+.post-card {
+    background-color: #ffffff; /* Fundo branco do card */
+    max-width: 700px; /* Largura máxima fixa */
+    width: 100%;
+    padding: 40px; /* Espaçamento interno (Respiro) */
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 12px; /* Cantos arredondados modernos */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); /* Sombra leve */
+}
+
+/* 5. Tipografia do Artigo */
+h2 {
+    font-size: 2.2rem;
+    color: #1a1a1b; /* Cor de título mais escura */
+    margin-bottom: 20px;
+    border-left: 5px solid #007bff; /* Detalhe visual lateral */
+    padding-left: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 20px;
+}
