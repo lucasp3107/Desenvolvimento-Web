@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Post de Blog - Aula 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Tecnologia</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article class="post-card">
+            <h2>A Revolução do CSS Moderno</h2>
+            <p>Transformar um documento simples em uma interface atraente é o poder do CSS. Através do Box Model, conseguimos controlar cada pixel de espaçamento, borda e margem.</p>
+            <p>Neste exercício, aplicamos conceitos de centralização, tipografia diferenciada e feedback visual para o usuário, garantindo uma melhor experiência de navegação.</p>
+            <p>O design "card" ajuda a focar a atenção do leitor no conteúdo principal, separando-o visualmente do fundo da página.</p>
+        </article>
+    </main>
+
+</body>
+</html>
